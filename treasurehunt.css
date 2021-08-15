@@ -1,0 +1,33 @@
+h1{
+  display: flex;
+  justify-content: center;
+  color: darkblue;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:20px;
+  text-align: center;
+  font-size: 100px;
+}
+table{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+td{
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 100px;
+  background-color: grey;
+  opacity: .7;
+  height: 150px;
+  width: 150px;
+}
+td:hover {
+  color: red;
+}
+body{
+  background-image: url(https://st3.depositphotos.com/2129849/16328/v/1600/depositphotos_163281290-stock-illustration-pop-art-comic-book-strip.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
